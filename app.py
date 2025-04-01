@@ -27,7 +27,7 @@ user_input = st.text_area("Enter a sentence:", "The Netherlands is a beautiful c
 # Word Cloud Visualization of the input sentence
 if user_input:
     wordcloud = WordCloud(width=800, height=400, background_color='white').generate(user_input)
-    st.image(wordcloud.to_array(), caption="Word Cloud", use_column_width=True)
+    st.image(wordcloud.to_array(), caption="Word Cloud", use_container_width=True)
 
 if st.button("Predict Sentiment"):
     # Transform the input text using the same vectorizer
