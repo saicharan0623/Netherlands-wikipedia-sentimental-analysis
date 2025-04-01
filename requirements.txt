@@ -8,3 +8,4 @@ matplotlib
 seaborn
 pickle-mixin
 textblob
+wordcloud
