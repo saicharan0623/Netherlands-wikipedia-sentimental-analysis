@@ -1,4 +1,6 @@
 # Netherlands Wikipedia Sentiment Analysis 🌍📊  
+![reference](reference-aai.png)
+
 
 ## Overview  
 This project implements a sentiment analysis system for content extracted from the Netherlands Wikipedia page. It covers the complete data science pipeline, from web scraping and text preprocessing to model training and deployment via a **Streamlit web application**.  
